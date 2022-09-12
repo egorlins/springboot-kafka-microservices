@@ -1,4 +1,4 @@
-package net.egorlins.orderservice.kafka;
+package net.egorlins.orderservice.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.beans.factory.annotation.Value;
