@@ -26,7 +26,7 @@ public class OrderProducer {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    public void sendMessage(OrderEvent event) throws InterruptedException {
+    public void sendMessage(OrderEvent event) {
         LOGGER.info(String.format("Order event sent %s", event.toString()));
 
         //create a message
